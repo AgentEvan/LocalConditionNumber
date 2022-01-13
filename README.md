@@ -25,7 +25,7 @@ Mathematic details of local condition number may refer to the work [JFM2019](htt
 
 First, cases in `Channel/1D/` are ready to reproduce FIGURE 4, FIGURE 6 and FIGURE 7 in [JFM2019](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/reynoldsaveraged-navierstokes-equations-with-explicit-datadriven-reynolds-stress-closure-can-be-illconditioned/9656A61EDA46B5B1DF249ED18068DDE1) . Differences of magnitude between the following results and their work might due to the different mesh. 
 
-| <img src="README.assets/Kj_explicit.png" style="zoom: 25%;" /> | <img src="README.assets/Kj_implicit.png" alt="Kj_implicit" style="zoom: 25%;" /> | <img src="README.assets/Kj_vol_Ret.png" alt="Kj_vol_Ret" style="zoom: 25%;" /> |
+| <img src="Channel/figures/Kj_explicit.png" style="zoom: 25%;" /> | <img src="Channel/figures/Kj_implicit.png" alt="Kj_implicit" style="zoom: 25%;" /> | <img src="Channel/figures/Kj_vol_Ret.png" alt="Kj_vol_Ret" style="zoom: 25%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 Then, the case in `Channel/2D` is to verify the correctness of $\mathbf{r}_j$ on a two-dimensional coarse mesh with resolution of $N_x \times N_y = 10 \times 32$. For channel flow driven by constant pressure gradient at steady state, velocity at each section along the stream direction should be the same. According to $\mathbf{u}=\mathbf{A}^{-1}\cdot\mathbf{b}$, it can be inferred that $\mathbf{r}_j$ should also has the same distribution at 10 sections.  Results can be shown in `Channel/Post_2D_R0180_Coarse.ipynb`
