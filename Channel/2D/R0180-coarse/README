@@ -1,0 +1,13 @@
+The mesh number adopted here is nx*ny = 10*32
+
+(optional) run "Test-FoamMatrix" first to obtain matrix coeffs data
+
+run "python3 get_ConditionNumber.py" to 
+obtain norm of each row of matrix inverse: rj_DD, rj_addBD, rj_Full
+and
+three different local condition number: Kj_DD, Kj_addBD, Kj_Full
+in "./10000".
+
+Check and tests in detail are written in "Post_2DChannel_0180_Coarse"
+
+

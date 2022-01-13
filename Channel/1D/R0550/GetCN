@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# get_LatestTime
+# get_Volume
+# get_PointLocation
+# get_divRS_DNS
+
+python3 get_ConditionNumber.py

@@ -1,0 +1,5 @@
+#! /bin/bash
+# reconstructPar
+# postProcess -funcs '(grad(p), grad(U), grad(k))'
+# simpleFoam -postProcess -func R
+postProcess -func sampleDict -latestTime

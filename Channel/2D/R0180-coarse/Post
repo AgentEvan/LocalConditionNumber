@@ -1,0 +1,6 @@
+#! /bin/bash
+get_InterpolatedDNS_Channel
+get_nutL
+Test-FoamMatrix
+./Get_CN
+get_StructuredData2D
